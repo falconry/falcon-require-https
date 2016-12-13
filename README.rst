@@ -11,6 +11,13 @@ within the application layer itself.
 In addition to employing this middleware component, please consider
 enabling HSTS in your web server configuration.
 
+Credits
+-------
+
+This middleware component is based on paul291's original
+proof of concept, which was orginally submitted as a PR to the
+`falconry/falcon` repo.
+
 About Falcon
 ------------
 
