@@ -22,3 +22,11 @@ script:
 after_success:
   - coverage combine
   - codecov
+notifications:
+  irc:
+    channels:
+      - "chat.freenode.net#falconframework"
+    on_success: change
+    on_failure: always
+    use_notice: true
+    skip_join: true
