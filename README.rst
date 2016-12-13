@@ -1,5 +1,5 @@
-Falcon Middleware: Require HTTPS
-================================
+Falcon Middleware: Require HTTPS |Build Status| |codecov.io|
+============================================================
 
 The ``falcon-require-https`` package provides a middleware component
 for sanity-checking that the incoming request was received over
@@ -19,3 +19,9 @@ framework <http://falconframework.org/index.html>`__ for building cloud
 APIs. It encourages the REST architectural style, and tries to do as
 little as possible while remaining `highly
 effective <http://falconframework.org/index.html#Benefits>`__.
+
+
+.. |Build Status| image:: https://travis-ci.org/falconry/falcon-require-https.svg
+   :target: https://travis-ci.org/falconry/falcon-require-https
+.. |codecov.io| image:: https://codecov.io/gh/falconry/falcon-require-https/branch/master/graph/badge.svg
+   :target: https://codecov.io/gh/falconry/falcon-require-https
