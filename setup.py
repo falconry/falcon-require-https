@@ -9,7 +9,7 @@ VERSION = VERSION.__version__
 
 
 setup(
-    name='falcon',
+    name='falcon-require-https',
     version=VERSION,
     description='Falcon middleware for sanity-checking that HTTPS was used for the request.',
     long_description=io.open('README.rst', 'r', encoding='utf-8').read(),
