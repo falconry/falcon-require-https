@@ -5,11 +5,8 @@ The ``falcon-require-https`` package provides a middleware component
 for sanity-checking that the incoming request was received over
 HTTPS. While the web server is primarily responsibile for enforcing the
 HTTPS protocol, misconfiguration is still a leading cause of security
-vulnerabilities, and so it can be helpful to perform certain checks
-within the application layer itself.
-
-In addition to employing this middleware component, please consider
-enabling HSTS in your web server configuration.
+vulnerabilities, and so it can be helpful to perform certain additional
+checks, such as this one, within the application layer itself.
 
 Credits
 -------
