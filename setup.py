@@ -25,7 +25,6 @@ setup(
         'Operating System :: POSIX',
         'Topic :: Internet :: WWW/HTTP :: WSGI',
         'Topic :: Software Development :: Libraries :: Application Frameworks',
-        'Framework :: Falcon',
         'Programming Language :: Python',
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy',
