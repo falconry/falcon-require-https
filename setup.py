@@ -14,7 +14,7 @@ setup(
     description='Falcon middleware for sanity-checking that HTTPS was used for the request.',
     long_description=io.open('README.rst', 'r', encoding='utf-8').read(),
     classifiers=[
-        'Development Status :: 4 - Beta',
+        'Development Status :: 3 - Alpha',
         'Environment :: Web Environment',
         'Natural Language :: English',
         'Intended Audience :: Developers',
@@ -28,7 +28,6 @@ setup(
         'Programming Language :: Python',
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy',
-        'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
@@ -39,7 +38,7 @@ setup(
     url='https://github.com/falconry/falcon-require-https',
     license='Apache 2.0',
     packages=find_packages(exclude=['tests']),
-    install_requires=[],
+    install_requires=['falcon'],
     setup_requires=['pytest-runner'],
     tests_require=['falcon', 'pytest'],
 )
