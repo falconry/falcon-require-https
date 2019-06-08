@@ -25,7 +25,9 @@ class RequireHTTPS(object):
     """
 
     def process_request(self, req, resp):
-        if req.protocol.lower() == 'https':
+        # NOTE: replaced deprecated req.protocol
+        #       with req.scheme since it removed in Falcon v2.0.
+        if req.scheme.lower() == 'https':
             return
 
         xfp = req.get_header('X-FORWARDED-PROTO')

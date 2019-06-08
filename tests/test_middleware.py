@@ -11,7 +11,7 @@ _TEST_PATH = '/https'
 @pytest.fixture()
 def simulate():
     app = falcon.API(middleware=[RequireHTTPS()])
-    app.add_route(_TEST_PATH, testing.TestResource())
+    app.add_route(_TEST_PATH, testing.SimpleTestResource())
 
     def simulate(protocol, headers=None):
         env = testing.create_environ(
